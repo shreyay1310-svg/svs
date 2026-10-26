@@ -1,0 +1,49 @@
+# Node dependencies
+node_modules/
+**/node_modules/
+
+# Production build output
+dist/
+**/dist/
+dist-ssr/
+build/
+*.tsbuildinfo
+
+# Archives
+*.zip
+*.tar.gz
+*.rar
+
+# Environment variables & secrets (CRITICAL)
+.env
+.env.*
+!.env.example
+
+# Database files & temporary storage
+*.sqlite
+*.sqlite3
+*.db
+temp_mysql_data/
+**/temp_mysql_data/
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
+
+# Editor & OS files
+.vscode/*
+!.vscode/extensions.json
+.idea/
+.DS_Store
+Thumbs.db
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Test coverage
+coverage/
+.nyc_output/
